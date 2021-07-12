@@ -13,6 +13,7 @@ and corresponds to the following step by step YouTube tutorial:
 <br>
 https://youtu.be/ah3JeHAfM0M
 <br>
+<br>
 <b>starter_file.py</b>
 <br>
 Is an empty screen window only - which can be used as a starting point
@@ -23,9 +24,7 @@ to follow along with the tutorial above.
 <b>In part 2+3 of this project:</b>
 <br>
 1. We will handle exceptions 
-<br>
 2. We will re-write the "convert" function, so that it converts fractions as well and not just whole numbers
-<br>
 3. Load this app onto our Android devices
 <br>
 <br>
