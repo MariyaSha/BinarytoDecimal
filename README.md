@@ -29,6 +29,9 @@ to follow along with the tutorial above.
 <br>
 <br>
 <b>Author:</b> Mariya Sha
+<br>
 <b>YouTube: </b> https://www.youtube.com/PythonSimplified
+<br>
 <b>Linkedin: </b> https://www.linkedin.com/in/mariyasha888/
+<br>
 <b>Instagram: </b> https://instagram.com/mariyasha888
