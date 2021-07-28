@@ -7,11 +7,20 @@ Binary to Decimal Converter Mobile App With KivyMD
 <br>
 <b>completeApp_part1.py</b>
 <br>
-This file contains the complete code for the first part of this project,
+This file contains the complete code for the <b>first part</b> of this project,
 <br>
 and corresponds to the following step by step YouTube tutorial:
 <br>
 https://youtu.be/ah3JeHAfM0M
+<br>
+<br>
+<b>completeApp_part2.py</b>
+<br>
+This file contains the complete code for the <b>second part</b> of this project,
+<br>
+and corresponds to the following step by step YouTube tutorial:
+<br>
+https://youtu.be/2aRBkAA1_9o
 <br>
 <br>
 <b>starter_file.py</b>
@@ -21,11 +30,16 @@ Is an empty screen window only - which can be used as a starting point
 to follow along with the tutorial above.
 <br>
 <br>
-<b>In part 2+3 of this project:</b>
+<b> How the Math behind the Conversion Works?</b>
 <br>
-1. We will handle exceptions 
-2. We will re-write the "convert" function, so that it converts fractions as well and not just whole numbers
-3. Load this app onto our Android devices
+Checkout my math tutorial on YouTube for a detailed explination:
+<br>
+https://youtu.be/4IFq7_s9NEA
+<br>
+<br>
+<b>In part 3 of this project:</b>
+<br>
+We will load this app onto our Android devices
 <br>
 <br>
 <b>Author:</b> Mariya Sha
