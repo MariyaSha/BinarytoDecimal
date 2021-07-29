@@ -13,11 +13,11 @@ class ConverterApp(MDApp):
         if self.state == 0:
             self.state = 1
             self.toolbar.title = "Decimal to Binary"
-            self.input.helper_text = "enter a decimal number"
+            self.input.hint_text = "enter a decimal number"
         else:
             self.state = 0
             self.toolbar.title = "Binary to Decimal"
-            self.input.helper_text = "enter a binary number"
+            self.input.hint_text = "enter a binary number"
         # hide labels until needed
         self.converted.text = ""
         self.label.text = ""
@@ -100,11 +100,10 @@ class ConverterApp(MDApp):
             halign="center",
             size_hint = (0.8,1),
             pos_hint = {"center_x": 0.5, "center_y":0.5},
-            font_size = 22
+            # font_size = 22
         )
-        # could not make helper text work when creating self.input
-        self.input.helper_text = "enter a binary number"
-        self.input.helper_text_mode = "persistent" # or on_focus
+        # could not make hint text work when creating self.input
+        self.input.hint_text = "enter a binary number"
         screen.add_widget(self.input)
 
         #secondary + primary labels
