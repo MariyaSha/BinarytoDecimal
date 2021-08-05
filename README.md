@@ -59,13 +59,21 @@ https://youtu.be/4IFq7_s9NEA
 to all the threads and docs that helped me with the Android conversion:
 <br>
 1. How to use Buildozer on Windows with WSL:
+<br>
 https://github.com/kivy/kivy/wiki/Using-Buildozer-on-windows-10-using-WSL
+<br>
 2. How to Install WSL:
+<br>
 https://docs.microsoft.com/en-us/windows/wsl/install-win10
+<br>
 3. How to Install Buildozer:
+<br>
 https://buildozer.readthedocs.io/en/latest/installation.html
+<br>
 4. Icons not displaying on Android:
+<br>
 https://github.com/kivymd/KivyMD/issues/257
+<br>
 <br>
 Good luck! :)
 <br>
