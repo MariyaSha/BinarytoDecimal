@@ -5,6 +5,23 @@ Binary to Decimal Converter Mobile App With KivyMD
 ![NumberBaseConverter](https://user-images.githubusercontent.com/32107652/125312989-a8ab7b80-e2e9-11eb-898d-8d93c1c789e6.jpg)
 <br>
 <br>
+<b>Android_PreBuild</b>
+<br>
+<br>
+Contains the mobile version of the app, including:
+<br>
+1. Android Debug Bridge for Windows == 1.0.39 + dlls
+2. Buildozer.spec + requirements
+3. main.py (edited mobile version)
+4. logo.png
+<br>
+Learn how you can convert your own Kivy & KivyMD apps into Android apk files:
+<br>
+(with Windows Subsyst6em for Linux (WSL))
+<br>
+https://youtu.be/VsTaM057rdc
+<br>
+<br>
 <b>completeApp_part1.py</b>
 <br>
 This file contains the complete code for the <b>first part</b> of this project,
@@ -37,9 +54,20 @@ Checkout my math tutorial on YouTube for a detailed explination:
 https://youtu.be/4IFq7_s9NEA
 <br>
 <br>
-<b>In part 3 of this project:</b>
+<b>SPECIAL THANKS</b>
 <br>
-We will load this app onto our Android devices
+to all the threads and docs that helped me with the Android conversion:
+<br>
+1. How to use Buildozer on Windows with WSL:
+https://github.com/kivy/kivy/wiki/Using-Buildozer-on-windows-10-using-WSL
+2. How to Install WSL:
+https://docs.microsoft.com/en-us/windows/wsl/install-win10
+3. How to Install Buildozer:
+https://buildozer.readthedocs.io/en/latest/installation.html
+4. Icons not displaying on Android:
+https://github.com/kivymd/KivyMD/issues/257
+<br>
+Good luck! :)
 <br>
 <br>
 <b>Author:</b> Mariya Sha
