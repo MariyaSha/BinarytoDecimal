@@ -6,6 +6,7 @@ from kivymd.uix.textfield import MDTextField
 from kivymd.uix.label import MDLabel
 from kivymd.uix.toolbar import MDToolbar
 
+
 class ConverterApp(MDApp):
     def flip(self):
         # a method for the "flip" icon
@@ -23,13 +24,13 @@ class ConverterApp(MDApp):
         self.label.text = ""
 
     def convert(self, args):
-        # a method to find the decimal/binary equivallent
+        # a method to find the decimal/binary equivalent
         try:
             if "." not in self.input.text:
                 # if the user-provided number is not a fraction
                 if self.state == 0:
                     # binary to decimal
-                    val = str(int(self.input.text,2))
+                    val = str(int(self.input.text, 2))
                     self.label.text = "in decimal is:"
                 else:
                     # decimal to binary
