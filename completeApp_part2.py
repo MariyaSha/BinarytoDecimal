@@ -6,6 +6,7 @@ from kivymd.uix.textfield import MDTextField
 from kivymd.uix.label import MDLabel
 from kivymd.uix.toolbar import MDToolbar
 
+
 class ConverterApp(MDApp):
     def flip(self):
         # a method for the "flip" icon
@@ -13,23 +14,23 @@ class ConverterApp(MDApp):
         if self.state == 0:
             self.state = 1
             self.toolbar.title = "Decimal to Binary"
-            self.input.text = "enter a decimal number"
+            self.input.hint_text = "enter a decimal number"
         else:
             self.state = 0
             self.toolbar.title = "Binary to Decimal"
-            self.input.text = "enter a binary number"
+            self.input.hint_text = "enter a binary number"
         # hide labels until needed
         self.converted.text = ""
         self.label.text = ""
 
     def convert(self, args):
-        # a method to find the decimal/binary equivallent
+        # a method to find the decimal/binary equivalent
         try:
             if "." not in self.input.text:
                 # if the user-provided number is not a fraction
                 if self.state == 0:
                     # binary to decimal
-                    val = str(int(self.input.text,2))
+                    val = str(int(self.input.text, 2))
                     self.label.text = "in decimal is:"
                 else:
                     # decimal to binary
@@ -96,12 +97,14 @@ class ConverterApp(MDApp):
 
         #collect user input
         self.input = MDTextField(
-            text="enter a binary number",
+            # text="enter a binary number",
             halign="center",
             size_hint = (0.8,1),
             pos_hint = {"center_x": 0.5, "center_y":0.5},
-            font_size = 22
+            # font_size = 22
         )
+        # could not make hint text work when creating self.input
+        self.input.hint_text = "enter a binary number"
         screen.add_widget(self.input)
 
         #secondary + primary labels
