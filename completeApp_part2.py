@@ -4,7 +4,7 @@ from kivy.uix.image import Image
 from kivymd.uix.button import MDFillRoundFlatIconButton, MDFillRoundFlatButton
 from kivymd.uix.textfield import MDTextField
 from kivymd.uix.label import MDLabel
-from kivymd.uix.toolbar import MDToolbar
+from kivymd.uix.toolbar import MDTopAppBar
 
 class ConverterApp(MDApp):
     def flip(self):
@@ -82,7 +82,7 @@ class ConverterApp(MDApp):
         screen = MDScreen()
 
         # top toolbar
-        self.toolbar = MDToolbar(title="Binary to Decimal")
+        self.toolbar = MDTopAppBar(title="Binary to Decimal")
         self.toolbar.pos_hint = {"top": 1}
         self.toolbar.right_action_items = [
             ["rotate-3d-variant", lambda x: self.flip()]]
